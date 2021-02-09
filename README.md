@@ -12,6 +12,6 @@ Sign language recognition, generation and translation is a research area with hi
 * **Developing a Visual Recognition**
 
 ### Datasets
-<https://www.kaggle.com/datamunge/sign-language-mnist>
-<https://www.kaggle.com/paultimothymooney/interpret-sign-language-with-deep-learning>
-<https://www.kaggle.com/serkanpeldek/cnn-practices-on-sign-language-digits>
+* <https://www.kaggle.com/datamunge/sign-language-mnist>
+* <https://www.kaggle.com/paultimothymooney/interpret-sign-language-with-deep-learning>
+* <https://www.kaggle.com/serkanpeldek/cnn-practices-on-sign-language-digits>
