@@ -33,4 +33,17 @@ Sign language recognition, generation and translation is a research area with hi
 | One-hot encode the data      |  Monday, 2/15/21            |
 | Define the model in code      |  Monday, 2/15/21            |
 | Compile the model      | Monday, 2/15/21             |
+|Train the model|Tuesday, 2/16/21 (Start by)|
+|Test the model| Wednesday, 2/17/21 - Thursday, 2/18/2021|
+|Visual mistake|Friday, 2/19/21|
+|Fix mistakes/Update model|Saturday, 2/20/21|
+|Present data in a pretty visual for viewers|As Needed|
+
+# GitHub Repository & Application Type
+* [Heroku](https://github.com/clmatherson/sign_language_detection)
+
+# Group Members
+Craig Matherson | Connor Lanier | Paul Eppers | Susan Thomas | Juliann Pezzullo | Nadia Albarracin 
+ 
+
 
