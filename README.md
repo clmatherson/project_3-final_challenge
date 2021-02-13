@@ -22,20 +22,15 @@ Sign language recognition, generation and translation is a research area with hi
 * <https://www.goeduhub.com/10496/facial-expression-recognition-using-keras-and-flask-app>
 * <https://www.youtube.com/watch?v=q2hdXLPN8JQ>
 
-### Datasets
-* <https://www.kaggle.com/datamunge/sign-language-mnist>
-* <https://www.kaggle.com/paultimothymooney/interpret-sign-language-with-deep-learning>
-* <https://www.kaggle.com/serkanpeldek/cnn-practices-on-sign-language-digits>
+# Milestones
 
-
-| Default aligned | Left aligned | Center aligned  | Right aligned  |
-|-----------------|:-------------|:---------------:|---------------:|
-| First body part | Second cell  | Third cell      | fourth cell    |
-| Second line     | foo          | **strong**      | baz            |
-| Third line      | quux         | baz             | bar            |
-|-----------------+--------------+-----------------+----------------|
-| Second body     |              |                 |                |
-| 2nd line        |              |                 |                |
-|-----------------+--------------+-----------------+----------------|
-| Third body      |              |                 | Foo            |
+| Activity | Date Due By |
+|-----------------|:-------------|
+| Choose coding model(s), website and tools | Wednesday, 2/10/21 - Saturday, 2/13/21  |
+| Pick words/data we want to use / Begin coding?   | Saturday, 2/13/2021 - Drink, Eat, Fork (To Start)          |
+| Pull in datasets      | Sunday, 2/14/21         |
+| Examine the Dataset /  Begin coding outline of ML | Sunday, 2/14/21 |
+| One-hot encode the data      |  Monday, 2/15/21            |
+| Define the model in code      |  Monday, 2/15/21            |
+| Compile the model      | Monday, 2/15/21             |
 
