@@ -12,10 +12,17 @@ Sign language recognition, generation and translation is a research area with hi
 * Developing a Visual Recognition Program/Formula for ASL Gestures and Words.
   * Develop a visual recognition program for deaf and hard of hearing to be able to use to communicate with those who can not communicate with them through sign language.  The program should be able to recognize and capture both the words and letters used if they have been input in our database
 
-## Project Scope
+# DATASETS / RESOURCES
+* <https://www.kaggle.com/datamunge/sign-language-mnist?
+* <https://www.kaggle.com/paultimothymooney/interpret-sign-language-with-deep-learning>
+* <https://www.kaggle.com/serkanpeldek/cnn-practices-on-sign-language-digits>
 
-* **Identifying Alphabet/Numeral Gestures within American Sign Language**.
-* **Developing a Visual Recognition**
+[link to Google!](http://google.com)
+GitHub - EvilPort2/Sign-Language: A very simple CNN project.
+GitHub - harshbg/Sign-Language-Interpreter-using-Deep-Learning: A sign language interpreter using live video feed from the camera.
+GitHub - nicknochnack/RealTimeSignLanguageDetectionwithTFJS: A complete package for building custom real time object detection applications.
+https://www.goeduhub.com/10496/facial-expression-recognition-using-keras-and-flask-app
+https://www.youtube.com/watch?v=q2hdXLPN8JQ 
 
 ### Datasets
 * <https://www.kaggle.com/datamunge/sign-language-mnist>
