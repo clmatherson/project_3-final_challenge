@@ -7,8 +7,8 @@ Sign language recognition, generation and translation is a research area with hi
 
 
 # PROJECT SCOPE
-Sign language recognition, generation and translation is a research area with high potential impact. According to the World Federation of the Dead, there are over 300 sign languages used around the world, and 70 million deaf people using them. Sign language is distinct from spoken languages and does not have standard written forms. However, the vast majority of communications technologies are designed to support spoken or written languages; which excludes sign languages. Most people do not know sign language and as a result, many communication barriers exist for deaf sign language users. We are trying to train a machine learning model on American sign Language recognition.
-
+* Identifying Alphabet/Numeral/Space Gestures within American Sign Language. Input sign Language words.
+* Developing a Visual Recognition Program/Formula for ASL Gestures and Words.  Develop a visual recognition program for deaf and hard of hearing to be able to use to communicate with those who can not communicate with them through sign language.  The program should be able to recognize and capture both the words and letters used if they have been input in our database
 
 ## Project Scope
 
