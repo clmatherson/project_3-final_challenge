@@ -1,5 +1,6 @@
 # Project 3 - Final Challenge
-Final Project - Machine Learning Challenge
+# Project Title: Sign Language Detection                                          8th February 2021
+
 
 # American Sign Language Recognition
 ![asl_asl_studies](Images/asl_asl_studies.jpg)
