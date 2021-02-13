@@ -9,3 +9,12 @@ pyrcc4 -o lib/resources.py resources.qrc
 $ pyrcc5 -o libs/resources.py resources.qrc
 $ python labelimg.py
 $ pip install qrcode[pil]
+
+create a resource file: resources.qrc
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/images">
+    <file alias="image.png">images/image.png</file>
+</qresource>
+</RCC>
+
+pyrcc5 C:\Users\anaro\Documents\Craig Matherson\UNC Coding\Assignments\sign_language_detection\labelImg-master\resources.qrc -o C:\Users\anaro\Documents\Craig Matherson\UNC Coding\Assignments\sign_language_detection\labelImg-master\resources.qrc_rc.py
