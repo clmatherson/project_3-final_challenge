@@ -16,3 +16,16 @@ Sign language recognition, generation and translation is a research area with hi
 * <https://www.kaggle.com/datamunge/sign-language-mnist>
 * <https://www.kaggle.com/paultimothymooney/interpret-sign-language-with-deep-learning>
 * <https://www.kaggle.com/serkanpeldek/cnn-practices-on-sign-language-digits>
+
+
+| Default aligned | Left aligned | Center aligned  | Right aligned  |
+|-----------------|:-------------|:---------------:|---------------:|
+| First body part | Second cell  | Third cell      | fourth cell    |
+| Second line     | foo          | **strong**      | baz            |
+| Third line      | quux         | baz             | bar            |
+|-----------------+--------------+-----------------+----------------|
+| Second body     |              |                 |                |
+| 2nd line        |              |                 |                |
+|-----------------+--------------+-----------------+----------------|
+| Third body      |              |                 | Foo            |
+{: .custom-class #custom-id}
