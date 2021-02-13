@@ -8,7 +8,8 @@ Sign language recognition, generation and translation is a research area with hi
 
 # PROJECT SCOPE
 * Identifying Alphabet/Numeral/Space Gestures within American Sign Language. Input sign Language words.
-* Developing a Visual Recognition Program/Formula for ASL Gestures and Words.  Develop a visual recognition program for deaf and hard of hearing to be able to use to communicate with those who can not communicate with them through sign language.  The program should be able to recognize and capture both the words and letters used if they have been input in our database
+* Developing a Visual Recognition Program/Formula for ASL Gestures and Words.
+    Develop a visual recognition program for deaf and hard of hearing to be able to use to communicate with those who can not communicate with them through sign language.  The program should be able to recognize and capture both the words and letters used if they have been input in our database
 
 ## Project Scope
 
