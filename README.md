@@ -1,11 +1,12 @@
-# Project 3 - Final Challenge
 # Project Title: Sign Language Detection                                          8th February 2021
 
-
-# American Sign Language Recognition
 ![asl_asl_studies](Images/asl_asl_studies.jpg)
 
-## Project Description/Rationale
+# PROJECT DESCRIPTION/RATIONALE
+Sign language recognition, generation and translation is a research area with high potential impact. According to the World Federation of the Deaf, there are over 300 sign languages used around the world, and 70 million deaf people using them. Sign language is distinct from spoken languages and does not have standard written forms. However, the vast majority of communications technologies are designed to support spoken or written languages; which excludes sign languages. Most people do not know sign language and as a result, many communication barriers exist for deaf sign language users. Sign language processing would help break down these barriers for sign language users. We are trying to train a machine learning model on American sign Language recognition. 
+
+
+# PROJECT SCOPE
 Sign language recognition, generation and translation is a research area with high potential impact. According to the World Federation of the Dead, there are over 300 sign languages used around the world, and 70 million deaf people using them. Sign language is distinct from spoken languages and does not have standard written forms. However, the vast majority of communications technologies are designed to support spoken or written languages; which excludes sign languages. Most people do not know sign language and as a result, many communication barriers exist for deaf sign language users. We are trying to train a machine learning model on American sign Language recognition.
 
 
