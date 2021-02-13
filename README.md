@@ -9,6 +9,7 @@ Sign language recognition, generation and translation is a research area with hi
 
 
 ## Project Scope
+
 * **Identifying Alphabet/Numeral Gestures within American Sign Language**.
 * **Developing a Visual Recognition**
 
@@ -28,4 +29,4 @@ Sign language recognition, generation and translation is a research area with hi
 | 2nd line        |              |                 |                |
 |-----------------+--------------+-----------------+----------------|
 | Third body      |              |                 | Foo            |
-{: .custom-class #custom-id}
+
