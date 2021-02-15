@@ -1,16 +1,16 @@
-from flask import Flask, render_template, request
-import cv2
-from tensorflow.keras.models import load_model
-import numpy as np
+# from flask import Flask, render_template, request
+# import cv2
+# from tensorflow.keras.models import load_model
+# import numpy as np
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 # app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 1
 
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 # @app.route('/after', methods=['GET', 'POST'])
 # def after():
@@ -62,5 +62,5 @@ def index():
 
 #     return render_template('after.html', data=final_prediction)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
