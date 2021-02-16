@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html>
 
@@ -30,22 +29,25 @@
     crossorigin="anonymous"></script>
 
   <script src="https://d3js.org/d3.v6.min.js"></script>
-
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   <style>
-  .frameimg {
-    height: 200px;
-    border: 1px solid #777;
-  }
-  .frameimg2 {
-    height: 250px;
-    width: 300px;
-  }  
-  body {
-  background-image: url('');
-  background-color: lightcyan;
-  }
+    .frameimg {
+      height: 200px;
+      border: 1px solid #777;
+    }
+
+    .frameimg2 {
+      height: 250px;
+      width: 300px;
+    }
+
+    body {
+      background-image: url('');
+      background-color: lightcyan;
+    }
   </style>
 </head>
+
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -66,14 +68,14 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/methodology">Methodology</a>
-        </li> 
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/recommendation">Recommendation</a>
-        </li>        
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">About Us</a>
         </li>
-		<li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="/analysis">Analysis</a>
         </li>
       </ul>
@@ -83,7 +85,13 @@
     <span class="navbar-brand mb-0 h1">Welcome</span>
   </nav>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script>
+    // Your code will go here
+    // open up your console - if everything loaded properly you should see the correct version number
+    console.log('ml5 version:', ml5.version);
+  </script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="https://cdn.amcharts.com/lib/version/4.10.13/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/version/4.10.13/charts.js"></script>
 <script src="https://cdn.amcharts.com/lib/version/4.10.13/themes/material.js"></script>
@@ -97,8 +105,8 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="static/js/stockdata.js"></script>
 <script src="static/js/main.js"></script> -->
-<!-- <script src="static/js/plots.js"></script> -->
-	<!-- <footer class="py-5 bg-dark">
+  <!-- <script src="static/js/plots.js"></script> -->
+  <!-- <footer class="py-5 bg-dark">
   <div class="container">
 
   <p class="m-0 text-center text-white">&copy; Data Analytics Bootcamp, UNC-Chapel Hill 2021</p>
@@ -106,4 +114,5 @@
 </footer> -->
 
 </body>
+
 </html>

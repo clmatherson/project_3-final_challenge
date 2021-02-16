@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 #  render_template
 # import cv2
 import numpy as np
@@ -6,10 +6,14 @@ import numpy as np
 app = Flask(__name__)
 
 
+# @app.route('/')
+# def home():
+#     print("Server received request for 'Home' page...")
+#     return "Welcome to my 'Home' page!"
+
 @app.route('/')
-def home():
-    print("Server received request for 'Home' page...")
-    return "Welcome to my 'Home' page!"
+def index():
+    return render_template('index.html')
 
 # def index():
     # return render_template('index.html')
