@@ -4,9 +4,7 @@ from flask import Flask, render_template
 # import Tensorflow
 import numpy as np
 import os
-import cv2
-import onnx
-import onnxruntime
+
 
 import step_5_camera
 
