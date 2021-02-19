@@ -4,6 +4,11 @@ from flask import Flask, render_template
 # import Tensorflow
 import numpy as np
 import os
+import opencv-python
+import onnx
+import onnxruntime
+
+import step_5_camera
 
 app = Flask(__name__)
 
@@ -20,6 +25,11 @@ def index():
 @app.route('/about')
 def page1():
     return render_template('about.html')
+
+@app.route('/test')
+def dynamic_page():
+    return step_5_camera.main()
+
 
 
 if __name__ == "__main__":
