@@ -3,6 +3,7 @@ from flask import Flask, render_template
 # import cv2
 # import Tensorflow
 import numpy as np
+import os
 
 app = Flask(__name__)
 
@@ -16,8 +17,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-# def index():
-    # return render_template('index.html')
+@app.route('/about')
+def page1():
+    return render_template('about.html')
 
 
 if __name__ == "__main__":
