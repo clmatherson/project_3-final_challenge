@@ -3,6 +3,7 @@ from flask import Flask, render_template
 # import cv2
 # import Tensorflow
 import numpy as np
+import cv2
 import step_5_camera # this will be your file name; minus the `.py`
 
 app = Flask(__name__)
