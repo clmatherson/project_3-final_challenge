@@ -54,3 +54,7 @@ wasabi==0.8.2
 Werkzeug==1.0.1
 wincertstore==0.2
 zipp==3.4.0
+opencv-python
+numpy
+onnx
+onnxruntime
