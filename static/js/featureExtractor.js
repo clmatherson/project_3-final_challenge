@@ -17,9 +17,9 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('../../model(2).json', customModelReady)
+  classifier.load('../../model.json', customModelReady)
 }
-// '
+
 function customModelReady() {
     console.log('Custom Model is ready!')
     label = 'model ready'
