@@ -1,7 +1,8 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 #  render_template
 # import Tensorflow
 import numpy as np
+from camera import Camera
 # import cv2
 import step_5_camera # this will be your file name; minus the `.py`
 
@@ -32,11 +33,21 @@ def page2():
 @app.route('/signUpload')
 def page3():
     return render_template('signUpload.html')
+	
+def gen(camera):
+    while True:
+        frame = camera.get_frame()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
 @app.route('/test')
 def dynamic_page():
     return step_5_camera.main()
 
+@app.route('/video_feed')
+def video_feed():
+    return Response(gen(Camera()),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == "__main__":
     app.run(debug=True)
