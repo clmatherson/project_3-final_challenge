@@ -1,0 +1,26 @@
+<annotation>
+	<folder>susanimages</folder>
+	<filename>Good.394326a4-7399-11eb-9a7b-3c15c2e50224.jpg</filename>
+	<path>/Users/susancthomas/Desktop/Final_Project/sign_language_detection/Images/susanimages/Good.394326a4-7399-11eb-9a7b-3c15c2e50224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>great</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>313</xmin>
+			<ymin>73</ymin>
+			<xmax>1107</xmax>
+			<ymax>607</ymax>
+		</bndbox>
+	</object>
+</annotation>

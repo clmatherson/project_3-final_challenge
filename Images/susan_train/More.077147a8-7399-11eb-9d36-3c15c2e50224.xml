@@ -1,0 +1,26 @@
+<annotation>
+	<folder>susanimages</folder>
+	<filename>More.077147a8-7399-11eb-9d36-3c15c2e50224.jpg</filename>
+	<path>/Users/susancthomas/Desktop/Final_Project/sign_language_detection/Images/susanimages/More.077147a8-7399-11eb-9d36-3c15c2e50224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>more</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>500</xmin>
+			<ymin>398</ymin>
+			<xmax>1110</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

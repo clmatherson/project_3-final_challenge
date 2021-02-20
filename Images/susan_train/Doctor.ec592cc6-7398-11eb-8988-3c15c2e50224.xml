@@ -1,0 +1,26 @@
+<annotation>
+	<folder>susanimages</folder>
+	<filename>Doctor.ec592cc6-7398-11eb-8988-3c15c2e50224.jpg</filename>
+	<path>/Users/susancthomas/Desktop/Final_Project/sign_language_detection/Images/susanimages/Doctor.ec592cc6-7398-11eb-8988-3c15c2e50224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>doctor</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>282</xmin>
+			<ymin>277</ymin>
+			<xmax>685</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+</annotation>

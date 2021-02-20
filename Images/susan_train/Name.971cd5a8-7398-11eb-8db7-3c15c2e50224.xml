@@ -1,0 +1,26 @@
+<annotation>
+	<folder>susanimages</folder>
+	<filename>Name.971cd5a8-7398-11eb-8db7-3c15c2e50224.jpg</filename>
+	<path>/Users/susancthomas/Desktop/Final_Project/sign_language_detection/Images/susanimages/Name.971cd5a8-7398-11eb-8db7-3c15c2e50224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>name</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>370</xmin>
+			<ymin>393</ymin>
+			<xmax>1057</xmax>
+			<ymax>680</ymax>
+		</bndbox>
+	</object>
+</annotation>

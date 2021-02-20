@@ -1,0 +1,26 @@
+<annotation>
+	<folder>susanimages</folder>
+	<filename>Down.62e37f98-7398-11eb-ac58-3c15c2e50224.jpg</filename>
+	<path>/Users/susancthomas/Desktop/Final_Project/sign_language_detection/Images/susanimages/Down.62e37f98-7398-11eb-ac58-3c15c2e50224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>down</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>212</xmin>
+			<ymin>124</ymin>
+			<xmax>549</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+</annotation>
