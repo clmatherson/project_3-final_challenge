@@ -25,9 +25,9 @@ def page1():
 def page2():
     return render_template('camera.html')
 
-@app.route('/signUpload')
+@app.route('/uploadSigns')
 def page3():
-    return render_template('signUpload.html')
+    return render_template('uploadSigns.html')
 
 @app.route('/test')
 def dynamic_page():
