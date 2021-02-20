@@ -22,7 +22,7 @@ def page1():
     return render_template('about.html')
 
 @app.route('/installation')
-def page1():
+def page4():
     return render_template('installation.html')
 
 @app.route('/camera')
