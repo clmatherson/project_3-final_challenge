@@ -1,0 +1,26 @@
+<annotation>
+	<folder>consolidatedimages</folder>
+	<filename>Eat.a48d122f-7305-11eb-b484-a0d37a875879.jpg</filename>
+	<path>C:\Users\anaro\Documents\Craig Matherson\UNC Coding\Assignments\sign_language_detection\Images\consolidatedimages\Eat.a48d122f-7305-11eb-b484-a0d37a875879.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>55</ymin>
+			<xmax>338</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+</annotation>
