@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Consolidated_Files</folder>
+	<filename>Go.b15cf406-730c-11eb-8280-dc8b28473145.jpg</filename>
+	<path>C:\Users\mclan\Desktop\final_Project\sign_language_detection\Images\Consolidated_Files\Go.b15cf406-730c-11eb-8280-dc8b28473145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>go</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>282</ymin>
+			<xmax>383</xmax>
+			<ymax>419</ymax>
+		</bndbox>
+	</object>
+</annotation>

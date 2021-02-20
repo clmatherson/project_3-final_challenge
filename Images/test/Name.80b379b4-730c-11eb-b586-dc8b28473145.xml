@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Consolidated_Files</folder>
+	<filename>Name.80b379b4-730c-11eb-b586-dc8b28473145.jpg</filename>
+	<path>C:\Users\mclan\Desktop\final_Project\sign_language_detection\Images\Consolidated_Files\Name.80b379b4-730c-11eb-b586-dc8b28473145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>name</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>254</xmin>
+			<ymin>260</ymin>
+			<xmax>392</xmax>
+			<ymax>369</ymax>
+		</bndbox>
+	</object>
+</annotation>
