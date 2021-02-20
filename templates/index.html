@@ -29,7 +29,7 @@
   <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
   <!-- <script src="p5.js"></script> -->
   <!-- <script src="sketch.js"></script> -->
-  <script src="../static/js/video.js"></script>
+  <!--<script src="../static/js/video.js"></script> -->
   <link rel="stylesheet" type="text/css" src="style.css">
   <style>
     .frameimg {
@@ -49,7 +49,15 @@
       background-image: url('');
       background-color: lightcyan;
     }
+	.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
   </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -62,41 +70,41 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarcolor02">
       <ul class="navbar-nav mr-auto">
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="/">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="/Graphs">Graphs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/methodology">Methodology</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/recommendation">Recommendation</a>
+          <a class="nav-link" href="/installation">Installation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/camera">Analysis</a>
+          <a class="nav-link" href="/camera">Trained</a>
         </li>
       </ul>
     </div>
   </nav>
-  <nav class="navbar navbar-expand-lg navbar-info bg-info">
-    <span class="navbar-brand mb-0 h1">Welcome</span>
-  </nav>
 <div class="container" style="margin-top:30px">
   <div class="row">
-      <h2>Sign Language</h2>
-      <img src="../static/asl_asl_studies.jpg" alt="Place Holderaa"  width="1050" height="300">
+		<h2>Sign Language</h2>
+      <img src="../static/asl_asl_studies.jpg" alt="asl_asl_studies"  width="1050" height="300">
 	</div>
 	<div class="row">
       <p>Converting Hand Signs into Words</p>
     </div>
+	<div class="row">
+		<div class="column">
+           <img src="../static/Alpha.jpg" alt="Alpha"  width="500" height="300">
+      </div>
+	  <div class="column">   
+           <img src="../static/handstowords1.jpg" alt="handstowords1"  width="500" height="300">
+      </div>
+	</div>
+	<div class="row">
+      <h1>Hello</h1>
     </div>
+		  <div class="row">
+		<img src="../static/hello.gif" alt="hello"  width="500" height="300">
+		</div>
+</div>
    
   <script>
     // Your code will go here

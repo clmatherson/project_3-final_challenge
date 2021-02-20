@@ -1,8 +1,9 @@
 from flask import Flask, render_template
 #  render_template
-# import cv2
 # import Tensorflow
 import numpy as np
+# import cv2
+import step_5_camera # this will be your file name; minus the `.py`
 
 app = Flask(__name__)
 
@@ -21,9 +22,12 @@ def page1():
     return render_template('about.html')
 
 @app.route('/camera')
-def page1():
+def page2():
     return render_template('camera.html')
 
+@app.route('/test')
+def dynamic_page():
+    return step_5_camera.main()
 
 
 if __name__ == "__main__":

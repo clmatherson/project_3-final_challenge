@@ -57,3 +57,4 @@ zipp==3.4.0
 opencv-python
 onnx
 onnxruntime
+opencv-python-headless
