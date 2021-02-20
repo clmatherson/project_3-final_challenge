@@ -21,9 +21,9 @@ def index():
 def page1():
     return render_template('about.html')
 
-@app.route('/camera')
+@app.route('/signvideo')
 def page2():
-    return render_template('camera.html')
+    return render_template('signvideo.html')
 
 @app.route('/uploadSigns')
 def page3():
