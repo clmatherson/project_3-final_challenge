@@ -21,6 +21,10 @@ def index():
 def page1():
     return render_template('about.html')
 
+@app.route('/installation')
+def page4():
+    return render_template('installation.html')
+
 @app.route('/signvideo')
 def page2():
     return render_template('signvideo.html')
