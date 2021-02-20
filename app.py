@@ -20,6 +20,10 @@ def index():
 def page1():
     return render_template('about.html')
 
+@app.route('/camera')
+def page1():
+    return render_template('camera.html')
+
 
 
 if __name__ == "__main__":

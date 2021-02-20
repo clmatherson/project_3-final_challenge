@@ -22,7 +22,13 @@
   padding-bottom: 3px;
 }
 
+#canvas {
+    margin: 60px
+}
 
+#defaultCanvas0 {
+    margin: 60px
+}
 
  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
  :root {
