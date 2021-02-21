@@ -33,6 +33,10 @@ def page2():
 def page3():
     return render_template('uploadSigns.html')
 
+@app.route('/Cnn')
+def page8():
+    return render_template('Cnn.html')
+
 @app.route('/test')
 def dynamic_page():
     return step_5_camera.main()

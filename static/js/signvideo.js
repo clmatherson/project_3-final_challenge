@@ -17,7 +17,7 @@ let label = 'loading model'
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('../../model/model.json', customModelReady)
+  classifier.load('model.json', customModelReady)
 }
 
 

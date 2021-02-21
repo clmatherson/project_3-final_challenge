@@ -21,6 +21,10 @@ let napkinButton;
 
 let saveButton;
 
+const options = {
+    numLabels: 4
+};
+
 function modelReady() {
   console.log('Model is ready!!!');
 //   classifier.load('../model.json', '../model.weights.bin', customModelReady)
@@ -55,7 +59,7 @@ function setup() {
   video = createCapture(VIDEO);
   video.hide();
   background(0);
-  mobilenet = ml5.featureExtractor('MobileNet', modelReady);
+  mobilenet = ml5.featureExtractor('MobileNet', options, modelReady);
   classifier = mobilenet.classification(video, videoReady)
   
   eatButton = createButton('eat sign');
