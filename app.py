@@ -2,9 +2,6 @@ from flask import Flask, render_template, Response
 #  render_template
 # import Tensorflow
 import numpy as np
-from camera import Camera
-# import cv2
-import step_5_camera # this will be your file name; minus the `.py`
 
 app = Flask(__name__)
 
