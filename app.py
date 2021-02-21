@@ -1,9 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Response
 #  render_template
 # import Tensorflow
 import numpy as np
-# import cv2
-import step_5_camera # this will be your file name; minus the `.py`
 
 app = Flask(__name__)
 
@@ -37,9 +35,6 @@ def page3():
 def page8():
     return render_template('Cnn.html')
 
-@app.route('/test')
-def dynamic_page():
-    return step_5_camera.main()
 
 
 if __name__ == "__main__":
