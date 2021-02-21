@@ -26,11 +26,11 @@ def page1():
 def page4():
     return render_template('installation.html')
 
-@app.route('/camera')
+@app.route('/signvideo')
 def page2():
-    return render_template('camera.html')
+    return render_template('signvideo.html')
 
-@app.route('/signUpload')
+@app.route('/uploadSigns')
 def page3():
     return render_template('signUpload.html')
 	
@@ -38,7 +38,8 @@ def gen(camera):
     while True:
         frame = camera.get_frame()
         yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n'
+
 
 @app.route('/test')
 def dynamic_page():

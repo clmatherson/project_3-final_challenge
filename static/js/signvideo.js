@@ -10,16 +10,18 @@ let classifier;
 let video;
 // let label = '';
 let label = 'loading model'
-let eatButton;
-let upButton;
-let trainButton;
+// let eatButton;
+// let upButton;
+// let trainButton;
 
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('../model.json', customModelReady)
+  classifier.load('../../model/model.json', customModelReady)
 }
-//'../model.weights.bin',
+
+
+// '../model.weights.bin',
 function customModelReady() {
     console.log('Custom Model is ready!')
     label = 'model ready'

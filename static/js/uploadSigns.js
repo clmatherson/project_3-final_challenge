@@ -15,6 +15,11 @@ let upButton;
 let trainButton;
 let drinkButton;
 let helpButton;
+let forkButton;
+let knifeButton;
+let napkinButton;
+
+let saveButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
@@ -67,9 +72,24 @@ function setup() {
       classifier.addImage('drink Sign')
   });
 
-  helpButton = createButton('drink sign');
+  forkButton = createButton('fork sign');
+  forkButton.mousePressed(function() {
+      classifier.addImage('fork Sign')
+  });
+
+  knifeButton = createButton('knife sign');
+  knifeButton.mousePressed(function() {
+      classifier.addImage('knife Sign')
+  });
+
+  napkinButton = createButton('napkin');
+  napkinButton.mousePressed(function() {
+      classifier.addImage('napkin Sign')
+  });
+
+  helpButton = createButton('help sign');
   helpButton.mousePressed(function() {
-      classifier.addImage('drink Sign')
+      classifier.addImage('help Sign')
   });
 
   trainButton = createButton('Train');
