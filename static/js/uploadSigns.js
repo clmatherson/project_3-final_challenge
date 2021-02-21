@@ -15,6 +15,7 @@ let upButton;
 let trainButton;
 let drinkButton;
 let helpButton;
+let saveButton;
 
 function modelReady() {
   console.log('Model is ready!!!');

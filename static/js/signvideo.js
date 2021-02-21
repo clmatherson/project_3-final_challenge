@@ -10,9 +10,9 @@ let classifier;
 let video;
 // let label = '';
 let label = 'loading model'
-let eatButton;
-let upButton;
-let trainButton;
+// let eatButton;
+// let upButton;
+// let trainButton;
 
 
 function modelReady() {
