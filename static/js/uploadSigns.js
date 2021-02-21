@@ -67,9 +67,9 @@ function setup() {
       classifier.addImage('drink Sign')
   });
 
-  helpButton = createButton('drink sign');
+  helpButton = createButton('help sign');
   helpButton.mousePressed(function() {
-      classifier.addImage('drink Sign')
+      classifier.addImage('help Sign')
   });
 
   trainButton = createButton('Train');
