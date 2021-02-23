@@ -1,7 +1,7 @@
 <annotation>
 	<folder>Consolidated_Files</folder>
-	<filename>Book.01bb780c-730d-11eb-addb-dc8b28473145.jpg</filename>
-	<path>C:\Users\mclan\Desktop\final_Project\sign_language_detection\Images\Consolidated_Files\Book.01bb780c-730d-11eb-addb-dc8b28473145.jpg</path>
+	<filename>World.8a49f48c-730c-11eb-b2f2-dc8b28473145.jpg</filename>
+	<path>C:\Users\mclan\Desktop\final_Project\sign_language_detection\Images\Consolidated_Files\World.8a49f48c-730c-11eb-b2f2-dc8b28473145.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>book</name>
+		<name>world</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>100</xmin>
-			<ymin>185</ymin>
-			<xmax>492</xmax>
-			<ymax>331</ymax>
+			<xmin>217</xmin>
+			<ymin>252</ymin>
+			<xmax>415</xmax>
+			<ymax>398</ymax>
 		</bndbox>
 	</object>
 </annotation>
