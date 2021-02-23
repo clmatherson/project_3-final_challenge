@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Consolidated_Files</folder>
+	<filename>Hello.21d57d24-730c-11eb-9548-dc8b28473145.jpg</filename>
+	<path>C:\Users\mclan\Desktop\final_Project\sign_language_detection\Images\Consolidated_Files\Hello.21d57d24-730c-11eb-9548-dc8b28473145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hello</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>141</ymin>
+			<xmax>239</xmax>
+			<ymax>297</ymax>
+		</bndbox>
+	</object>
+</annotation>
