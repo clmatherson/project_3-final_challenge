@@ -35,6 +35,10 @@ def page3():
 def page8():
     return render_template('Cnn.html')
 
+@app.route('/analysis')
+def page9():
+    return render_template('analysis.html')
+
 
 
 if __name__ == "__main__":
