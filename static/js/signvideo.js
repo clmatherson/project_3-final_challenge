@@ -47,7 +47,7 @@ function modelReady() {
 // '../model.weights.bin','static/js/model.json'[2]
 function customModelReady() {
     console.log('Custom Model is ready!')
-    label = 'model ready'
+    label = 'custom model ready'
     classifier.classify(gotResults)
 }
 
@@ -63,9 +63,6 @@ function videoReady() {
 //         console.log(loss)
 //     }
 // }
-
-
-
 
 
 

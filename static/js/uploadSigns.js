@@ -24,6 +24,9 @@ let fatherButton;
 
 let saveButton;
 
+var text = d3.select("#text");
+var output = d3.select(".output")
+
 const options = {
     numLabels: 10
 };
@@ -124,6 +127,11 @@ function setup() {
       classifier.addImage('father Sign')
   });
 
+  choiceButton = createButton('choice sign');
+  choiceButton.mousePressed(function() {
+      classifier.addImage('output Sign')
+  });
+
   trainButton = createButton('Train');
   trainButton.mousePressed(function() {
       classifier.train(whileTraining);
@@ -164,19 +172,22 @@ function gotResults(error, results) {
 //   return str.split("").reverse().join("");
 // }
 
-// // Function to handle input change
-// function handleChange(event) {
-//   // grab the value of the input field
-//   var inputText = d3.event.target.value;
-
-//   // reverse the input string
-//   var reversedInput = reverseString(inputText);
-
-//   // Set the output text to the reversed input string
-//   output.text(reversedInput);
+// myButton.onPress = function(){
+//     console.log("I have been pressed!");
 // }
 
-// text.on("change", handleChange);
+// Function to handle input change
+function handleChange(event) {
+  // grab the value of the input field
+  var inputText = d3.event.target.value;
+ // reverse the input string
+  // var reversedInput = reverseString(inputText);
+
+  // Set the output text to the reversed input string
+  output.text(inputText);
+}
+
+text.on("change", handleChange);
 
 {/* <div>
 <label for="text">Input Text: </label>
