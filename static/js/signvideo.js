@@ -40,7 +40,7 @@ let nModel;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('static/js/model.json', customModelReady)
+  classifier.load('../static/js/model.json', customModelReady)
 }
 
 

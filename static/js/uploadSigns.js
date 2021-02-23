@@ -24,8 +24,8 @@ let fatherButton;
 
 let saveButton;
 
-var text = d3.select("#text");
-var output = d3.select(".output")
+// var text = d3.select("#text");
+// var output = d3.select(".output")
 
 const options = {
     numLabels: 10
@@ -69,6 +69,10 @@ function whileTraining(loss) {
 // myButton.onRelease = function(){
 //     console.log("I have been released!");
 // }
+// setTimeout((5) => {
+      
+//   }, timeout);
+// let setTimeout = 5;
 
 function setup() {
   createCanvas(640, 550);
@@ -79,65 +83,77 @@ function setup() {
   classifier = mobilenet.classification(video, videoReady)
   
   eatButton = createButton('eat sign');
+  eatButton.position(950, 750)
   eatButton.mousePressed(function() {
       classifier.addImage('eat Sign')
   });
   upButton = createButton('up sign');
+  upButton.position(950, 800)
   upButton.mousePressed(function() {
       classifier.addImage('up Sign')
   });
 
   drinkButton = createButton('drink sign');
+  drinkButton.position(950, 850)
   drinkButton.mousePressed(function() {
       classifier.addImage('drink Sign')
   });
 
   forkButton = createButton('fork sign');
+  forkButton.position(950, 900)
   forkButton.mousePressed(function() {
       classifier.addImage('fork Sign')
   });
 
   cupButton = createButton('cup sign');
+  cupButton.position(950, 950)
   cupButton.mousePressed(function() {
       classifier.addImage('cup Sign')
   });
 
   knifeButton = createButton('knife sign');
+  knifeButton.position(950, 1000)
   knifeButton.mousePressed(function() {
       classifier.addImage('knife Sign')
   });
 
   napkinButton = createButton('napkin');
+  napkinButton.position(950, 1050)
   napkinButton.mousePressed(function() {
       classifier.addImage('napkin Sign')
   });
 
   helpButton = createButton('help sign');
+  helpButton.position(1150, 750)
   helpButton.mousePressed(function() {
       classifier.addImage('help Sign')
   });
 
   noButton = createButton('no sign');
+  noButton.position(1150, 800)
   noButton.mousePressed(function() {
       classifier.addImage('no Sign')
   });
 
   fatherButton = createButton('father sign');
+  fatherButton.position(1150, 850)
   fatherButton.mousePressed(function() {
       classifier.addImage('father Sign')
   });
 
-  choiceButton = createButton('choice sign');
-  choiceButton.mousePressed(function() {
-      classifier.addImage('output Sign')
-  });
+//   choiceButton = createButton('choice sign');
+//   choiceButton.mousePressed(function() {
+//       classifier.addImage('.output')
+//   });
 
-  trainButton = createButton('Train');
+  trainButton = createButton('Train M.L.');
+  trainButton.position(1150, 900)
   trainButton.mousePressed(function() {
       classifier.train(whileTraining);
   });
 
   saveButton = createButton('Save');
+  saveButton.position(1150, 950)
   saveButton.mousePressed(function() {
       classifier.save();
   });
@@ -176,18 +192,18 @@ function gotResults(error, results) {
 //     console.log("I have been pressed!");
 // }
 
-// Function to handle input change
-function handleChange(event) {
-  // grab the value of the input field
-  var inputText = d3.event.target.value;
- // reverse the input string
-  // var reversedInput = reverseString(inputText);
+// // Function to handle input change
+// function handleChange(event) {
+//   // grab the value of the input field
+//   var inputText = d3.event.target.value;
+//  // reverse the input string
+//   // var reversedInput = reverseString(inputText);
 
-  // Set the output text to the reversed input string
-  output.text(inputText);
-}
+//   // Set the output text to the reversed input string
+//   output.text(inputText);
+// }
 
-text.on("change", handleChange);
+// text.on("change", handleChange);
 
 {/* <div>
 <label for="text">Input Text: </label>
