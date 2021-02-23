@@ -13,15 +13,38 @@ let label = 'loading model'
 // let eatButton;
 // let upButton;
 // let trainButton;
+// let url = 'static/js/model.json'
+let nModel;
 
+// d3.json('static/js/model.json', function(data) {
+//   console.log(data)
+// })
+
+
+// d3.json(url).then((data) => {
+
+//   // C:\Users\jump1\sign_language_detection\static\model.json
+//   console.log(data)
+
+//   // result = [] 
+//   nModel=data[2]
+//   // stock.forEach(element => {
+    
+//   //   result=data[element]
+//   ml5.min.js:340 
+//   Uncaught (in promise) 
+//   TypeError: object null is not iterable 
+//   (cannot read property Symbol(Symbol.iterator))
+
+// }) nModel
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('model.json', customModelReady)
+  classifier.load('static/js/model.json', customModelReady)
 }
 
 
-// '../model.weights.bin',
+// '../model.weights.bin','static/js/model.json'[2]
 function customModelReady() {
     console.log('Custom Model is ready!')
     label = 'model ready'

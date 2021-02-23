@@ -27,13 +27,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">     -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">     -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css"
         integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-        
+
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
@@ -102,8 +102,35 @@
     <nav class="navbar navbar-expand-lg navbar-info bg-info">
         <span class="mx-auto h1 text-light">Train your own signs</span>
     </nav>
-<!-- class="mx-auto h1 text-light";  "navbar-brand mb-0 h1">Stock Visualization Graphs -->
-
+    <!-- class="mx-auto h1 text-light";  "navbar-brand mb-0 h1">Stock Visualization Graphs -->
+    <div class="container">
+        <div class="column-7">
+            <div class="row">
+                <p3>On this page you can train the machine learning model to recognize up to 10 signs. They can be the
+                    correct format or an
+                    abbreviated format. This can be done by pressing the button with the sign below the video image
+                    while performing the sign in front of your camera feed.
+                    The more repetitions of each sign you want recognized the better the model will be trained and the
+                    higher the degree of accuracy in
+                    sign recognition. After recording the signs press the train button, this will train the machine
+                    learning model; after it is finished
+                    training you should begin to see the labels of the signs you trained below video as you sign them.
+                </p3>
+                <hr>
+                <p3>The eventual goal of this page is to make it where users can changed the words on the buttons to any
+                    word they wish to input. We
+                    would also like to change the training input mechanism, as pressing down on the button and signing
+                    can be difficult as a lot of words require
+                    two hands. You may also notice a save button, it does work, it will save the trained model in a json
+                    and binary file to your download
+                    folder. The next step is allowing users to upload their saved trained model onto an existing
+                    platform that will allow them to not worry
+                    about constantly having to retrain the model for the words they wish to use while out at a store or
+                    restraunt.
+                </p3>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Your code will go here
