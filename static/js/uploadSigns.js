@@ -14,16 +14,21 @@ let eatButton;
 let upButton;
 let trainButton;
 let drinkButton;
+let cupButton;
 let helpButton;
 let forkButton;
 let knifeButton;
 let napkinButton;
+let noButton;
+let fatherButton;
 
 let saveButton;
 
 const options = {
-    numLabels: 4
+    numLabels: 10
 };
+
+// FEATURE_EXTRACTOR_DEFAULTS.numLabels=10
 
 function modelReady() {
   console.log('Model is ready!!!');
@@ -54,6 +59,14 @@ function whileTraining(loss) {
 //   image(puffin, 0, 0, width, height);
 // }
 
+// myButton.onHover = function(){
+//     console.log("The cursor is over me!");
+// } after 5 sec delay?
+
+// myButton.onRelease = function(){
+//     console.log("I have been released!");
+// }
+
 function setup() {
   createCanvas(640, 550);
   video = createCapture(VIDEO);
@@ -81,6 +94,11 @@ function setup() {
       classifier.addImage('fork Sign')
   });
 
+  cupButton = createButton('cup sign');
+  cupButton.mousePressed(function() {
+      classifier.addImage('cup Sign')
+  });
+
   knifeButton = createButton('knife sign');
   knifeButton.mousePressed(function() {
       classifier.addImage('knife Sign')
@@ -94,6 +112,16 @@ function setup() {
   helpButton = createButton('help sign');
   helpButton.mousePressed(function() {
       classifier.addImage('help Sign')
+  });
+
+  noButton = createButton('no sign');
+  noButton.mousePressed(function() {
+      classifier.addImage('no Sign')
+  });
+
+  fatherButton = createButton('father sign');
+  fatherButton.mousePressed(function() {
+      classifier.addImage('father Sign')
   });
 
   trainButton = createButton('Train');
@@ -126,3 +154,32 @@ function gotResults(error, results) {
     }
 }
 
+
+// // grab references to the input element and the output div
+// var text = d3.select("#text");
+// var output = d3.select(".output");
+
+// // Function to reverse a string
+// function reverseString(str) {
+//   return str.split("").reverse().join("");
+// }
+
+// // Function to handle input change
+// function handleChange(event) {
+//   // grab the value of the input field
+//   var inputText = d3.event.target.value;
+
+//   // reverse the input string
+//   var reversedInput = reverseString(inputText);
+
+//   // Set the output text to the reversed input string
+//   output.text(reversedInput);
+// }
+
+// text.on("change", handleChange);
+
+{/* <div>
+<label for="text">Input Text: </label>
+<input type="text" id="text" name="text-input">
+</div>
+<h1 class="output"></h1> */}

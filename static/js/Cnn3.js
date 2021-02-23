@@ -9,6 +9,10 @@ let targetLabel = 'C';
 
 let state = 'collection';
 
+// d3.json('static/js/model/model.json').then((model)=> {
+//   console.log(model)
+// });
+
 let notes = {
   C: 261.6256,
   D: 293.6648,
@@ -43,11 +47,11 @@ function setup() {
     learningRate: 0.5
   };
   model = ml5.neuralNetwork(options);
-//   model.loadData('mouse-notes.json', dataLoaded);
+//   model.loadData('static/js/mouse-notes.json', dataLoaded);
   const modelInfo = {
-    model: 'model/model.json',
-    metadata: 'model/model_meta.json',
-    weights: 'model/model.weights.bin'
+    model: 'static/model/model.json',
+    metadata: 'static/model/model_meta.json',
+    weights: 'static/model/model.weights.bin'
   };
 
   model.load(modelInfo, modelLoaded);
@@ -94,7 +98,7 @@ function keyPressed() {
     };
     model.train(options, whileTraining, finishedTraining);
   } else if (key == 's') {
-    model.saveData('mouse-notes');
+    model.saveData('static/js/mouse-notes');
   } else if (key == 'm') {
     model.save();
   } else {
