@@ -16,32 +16,16 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
-        
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script> -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">     -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css"
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css"
         integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>-->
         
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
-
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
-
-    <!-- <script src="p5.js"></script> -->
+       <!-- <script src="p5.js"></script> -->
     <!-- <script src="sketch.js"></script> -->
     <script src="../static/js/uploadSigns.js"></script>
     <link rel="stylesheet" type="text/css" src="style.css">
@@ -106,14 +90,50 @@
         <span class="mx-auto h1 text-light">Train your own signs</span>
     </nav>
 <!-- class="mx-auto h1 text-light";  "navbar-brand mb-0 h1">Stock Visualization Graphs -->
+    </div>
+        <div class="row" style="margin-top:30px">
+            <h2>Results</h2>
+                <p>We knew going into this project it would be very challenging because object detection and     
+                    machine learing on pictures was not covered in class. During the two weeks we worked on 
 
 
-    <script>
-        // Your code will go here
-        // open up your console - if everything loaded properly you should see the correct version number
-        console.log('ml5 version:', ml5.version);
-    </script>
+                </p>
+            </div>
+        <div class="row">
+        <div class="column">
+        <img src="../static/Alpha.jpg" alt="Alpha"  width="500" height="300">
+        </div>
+        <div class="column">   
+        <img src="../static/handstowords1.jpg" alt="handstowords1"  width="500" height="300">
+        </div>
+        </div>
 
+        <div class="row" style="margin-top:30px">
+            <h2>Results</h2>
+                <p>Training takes 6 to 20 hours to train a model depending on computer hardware</p>
+            <ul>
+                <li>Turn Camera On</li>
+                <li>Person makes hand sign</li>
+                <li>Have a conversation</li>
+            </ul>
+            <h2>Results</h2>
+
+            <h2>Improvements</h2>
+
+            <ul>
+                <li>Try different models Tensorflow models</li>https://github.com/tensorflow/models/tree/master/research/object_detection
+                
+                <li>Improve training pictures</li>
+                <ul>
+                    <li>Variety of poses</li>
+                    <li>Tighter bounding boxes</li>
+                </ul>    
+                <li>Make into an app/website</li>
+            </ul>
+
+        </div>
+    </div>
+      
 </body>
 
 </html>
