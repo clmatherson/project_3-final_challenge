@@ -17,8 +17,6 @@ function setup () {
   // knn = ml5.KNNClassifier();   
   labelP = createP("need training data")
 //knn=ml5.knnclassifier was moved down in third video
-  // x = width/2;
-  // y = height/2;
 }
 
 // function goClassify() {

@@ -73,6 +73,7 @@ function whileTraining(loss) {
       
 //   }, timeout);
 // let setTimeout = 5;
+// label=mousePressed('input')
 
 function setup() {
   createCanvas(640, 550);
@@ -83,60 +84,60 @@ function setup() {
   classifier = mobilenet.classification(video, videoReady)
   
   eatButton = createButton('eat sign');
-  eatButton.position(950, 750)
-  eatButton.mousePressed(function() {
+  eatButton.position(950, 650)
+  eatButton.mousePressed(function() { 
       classifier.addImage('eat Sign')
   });
   upButton = createButton('up sign');
-  upButton.position(950, 800)
+  upButton.position(950, 700)
   upButton.mousePressed(function() {
       classifier.addImage('up Sign')
   });
 
   drinkButton = createButton('drink sign');
-  drinkButton.position(950, 850)
+  drinkButton.position(950, 750)
   drinkButton.mousePressed(function() {
       classifier.addImage('drink Sign')
   });
 
   forkButton = createButton('fork sign');
-  forkButton.position(950, 900)
+  forkButton.position(950, 800)
   forkButton.mousePressed(function() {
       classifier.addImage('fork Sign')
   });
 
   cupButton = createButton('cup sign');
-  cupButton.position(950, 950)
+  cupButton.position(950, 850)
   cupButton.mousePressed(function() {
       classifier.addImage('cup Sign')
   });
 
   knifeButton = createButton('knife sign');
-  knifeButton.position(950, 1000)
+  knifeButton.position(950, 900)
   knifeButton.mousePressed(function() {
       classifier.addImage('knife Sign')
   });
 
   napkinButton = createButton('napkin');
-  napkinButton.position(950, 1050)
+  napkinButton.position(950, 950)
   napkinButton.mousePressed(function() {
       classifier.addImage('napkin Sign')
   });
 
   helpButton = createButton('help sign');
-  helpButton.position(1150, 750)
+  helpButton.position(1100, 700)
   helpButton.mousePressed(function() {
       classifier.addImage('help Sign')
   });
 
   noButton = createButton('no sign');
-  noButton.position(1150, 800)
+  noButton.position(1100, 750)
   noButton.mousePressed(function() {
       classifier.addImage('no Sign')
   });
 
   fatherButton = createButton('father sign');
-  fatherButton.position(1150, 850)
+  fatherButton.position(1100, 800)
   fatherButton.mousePressed(function() {
       classifier.addImage('father Sign')
   });
@@ -147,13 +148,13 @@ function setup() {
 //   });
 
   trainButton = createButton('Train M.L.');
-  trainButton.position(1150, 900)
+  trainButton.position(1100, 850)
   trainButton.mousePressed(function() {
       classifier.train(whileTraining);
   });
 
   saveButton = createButton('Save');
-  saveButton.position(1150, 950)
+  saveButton.position(1100, 900)
   saveButton.mousePressed(function() {
       classifier.save();
   });

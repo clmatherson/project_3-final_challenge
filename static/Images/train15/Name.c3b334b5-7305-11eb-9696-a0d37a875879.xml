@@ -1,0 +1,26 @@
+<annotation>
+	<folder>consolidatedimages</folder>
+	<filename>Name.c3b334b5-7305-11eb-9696-a0d37a875879.jpg</filename>
+	<path>C:\Users\anaro\Documents\Craig Matherson\UNC Coding\Assignments\sign_language_detection\Images\consolidatedimages\Name.c3b334b5-7305-11eb-9696-a0d37a875879.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>name</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>141</ymin>
+			<xmax>457</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>

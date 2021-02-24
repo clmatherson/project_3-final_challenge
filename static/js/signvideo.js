@@ -35,8 +35,11 @@ let nModel;
 //   Uncaught (in promise) 
 //   TypeError: object null is not iterable 
 //   (cannot read property Symbol(Symbol.iterator))
-
+let data;
 // }) nModel
+function preload() {
+  data = loadJSON('../../static/js/model.json')
+}
 
 function modelReady() {
   console.log('Model is ready!!!');
@@ -46,13 +49,14 @@ function modelReady() {
 
 // '../model.weights.bin','static/js/model.json'[2]
 function customModelReady() {
-    console.log('Custom Model is ready!')
-    label = 'custom model ready'
-    classifier.classify(gotResults)
+  console.log('Custom Model is ready!')
+  label = 'custom model ready'
+  classifier.classify(gotResults)
 }
 
 function videoReady() {
-    console.log("video is ready!!")
+  console.log("video is ready!!")
+  classifier.classify(gotResults);
 }
 
 // function whileTraining(loss) {
@@ -113,7 +117,6 @@ function gotResults(error, results) {
       //console.log(results); 
       //label = results[0].className; this is p5 I believe or mobilenet
       label = results[0].label;
-      classifier.classify(gotResults);
     }
 }
 

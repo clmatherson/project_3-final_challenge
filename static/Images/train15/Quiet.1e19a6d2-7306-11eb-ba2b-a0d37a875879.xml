@@ -1,0 +1,26 @@
+<annotation>
+	<folder>consolidatedimages</folder>
+	<filename>Quiet.1e19a6d2-7306-11eb-ba2b-a0d37a875879.jpg</filename>
+	<path>C:\Users\anaro\Documents\Craig Matherson\UNC Coding\Assignments\sign_language_detection\Images\consolidatedimages\Quiet.1e19a6d2-7306-11eb-ba2b-a0d37a875879.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>quiet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>4</ymin>
+			<xmax>416</xmax>
+			<ymax>223</ymax>
+		</bndbox>
+	</object>
+</annotation>
