@@ -6,11 +6,6 @@ import numpy as np
 app = Flask(__name__)
 
 
-# @app.route('/')
-# def home():
-#     print("Server received request for 'Home' page...")
-#     return "Welcome to my 'Home' page!"
-
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -31,9 +26,6 @@ def page2():
 def page3():
     return render_template('uploadSigns.html')
 
-# @app.route('/Cnn')
-# def page8():
-#     return render_template('Cnn.html')
 
 @app.route('/analysis')
 def page9():
