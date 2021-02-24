@@ -26,6 +26,9 @@ def page2():
 def page3():
     return render_template('uploadSigns.html')
 
+@app.route('/ml5')
+def page5():
+    return render_template('ml5.html')
 
 @app.route('/analysis')
 def page9():
